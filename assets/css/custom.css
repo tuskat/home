@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Inversionz;
+  src: url('../fonts/Inversionz.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: InversionzUnboxed;
+  src: url('../fonts/Inversionz_Unboxed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* use */
+h1, h2 {
+    font-family: Inversionz, Tahoma, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+body {
+  font-family: Calibri;
+  color: black;
+}
+
+a {
+  border-bottom: none;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 0.5rem;
+  padding: 0;
+  color: #aaa;
+}
+
+#viewer .slide .caption {
+  color: rgba(255, 255, 255, 0.75)
+}
