@@ -29,6 +29,18 @@ a {
   border-bottom: none;
 }
 
+p img {
+  width: 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: sub;
+  color: #2081e2;
+}
+
+p a {
+  color: #2081e2;
+}
+
 #footer {
   position: fixed;
   bottom: 0;
